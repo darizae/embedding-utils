@@ -28,7 +28,7 @@ classifiers = [
 dependencies = [
     "torch>=2.0,<3.0",
     "sentence-transformers>=2.2,<3.0",
-    "device-selector>=0.1.0"
+    "device-selector>=0.1.1"
 ]
 
 [project.optional-dependencies]
