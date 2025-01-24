@@ -12,4 +12,4 @@ A lightweight Python library providing a convenient wrapper around [Sentence Tra
 ## Installation
 
 ```bash
-pip install embedding-utils==0.1.2
+pip install embedding-utils==0.1.3
