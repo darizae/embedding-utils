@@ -20,9 +20,9 @@ class EmbeddingModel:
         :param cache_path: If given, load/save embeddings here to avoid re-computation.
         """
         self.model_name = model_name
-        self.device = device
+        self.device = check_or_select_device(device)
         self.cache = EmbeddingCache(cache_path)
-        self.model = SentenceTransformer(model_name, device=device)
+        self.model = SentenceTransformer(model_name, device=self.device)
 
     def encode_texts(self, texts: List[str], show_progress_bar: bool = True) -> List[np.ndarray]:
         """
