@@ -13,3 +13,7 @@ A lightweight Python library providing a convenient wrapper around [Sentence Tra
 
 ```bash
 pip install embedding-utils==0.1.3
+
+## Agent-assisted setup
+
+[Open the agent setup page](https://darizae.github.io/embedding-utils/) or [copy the plain-text prompt](docs/agent-setup.txt) into your coding agent. Review its proposed changes and verification results.
